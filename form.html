@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<title>Forms</title>
+</head>
+<!-- <body> -->
+
+
+   <style>
+form{
+        border: 1px solid grey;
+        max-width: 350px;
+        margin-left: 40%;
+        padding: 30px;
+        background-color: rgb(218, 197, 142);
+        
+    
+    }
+
+    label{
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    input{
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 5 px;
+    }
+        input[type=submit] {
+      background-color:rgb(100, 103, 101);
+      color: black;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+        input[type=submit]:hover {
+      background-color: #09cb5a;
+    }
+ 
+</style>
+
+    <form>
+        <body background="purple">
+        <caption><h1>Funbox<img src="signup.jpeg" alt="This is sign in" style="max-width: 90px"></h1></caption>
+        It's quick and easy
+        <h3>create a new account</h3>
+        <label for="fname">Name:</label>
+        <input type="text"  name="fname" placeholder="Full Name"> <br>
+        <label for="phone number">Phone Number:</label>
+        <input type="text" name="phone number"placeholder="Phone number"> <br>
+        <label for="email">Email:</label>
+        <input type="email"  name="email" placeholder="example@email.com"> <br>
+        <label for="password">password:</label>
+        <input type="password"  name="Password" placeholder="Password"> <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" value="Male"><label for="">Male</label>
+        <input type="radio" name="gender" value="Female"><label for="">Female</label><br>
+        <input type="checkbox" name="verify">
+        <label for="Verify">Verify all the mention data are valid</label><br>
+        <label for="points">Points:</label>
+        <input type="number" name="point" placeholder="Point" max="50"></label><br>
+        <input type="submit">
+        
+    </form>
+
+</body>
+</html>
